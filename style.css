@@ -559,6 +559,9 @@ body{
         gap: 10px;
         color: var(--primary-Color--);;
     }
+    .project .project-card .card i{
+       color: var(--primary-Color--);
+    }
     .project .project-card .card:hover{
         background-color: #222;
         color: #FF6347;
