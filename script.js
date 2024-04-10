@@ -1,5 +1,16 @@
 
-const btnTheme = document.getElementById("themeToggle");
+const btnTheme = document.getElementById("themeToggle")
+const btnForm = document.getElementById("btn")
+
+btnForm.addEventListener("click",(e)=>{
+    e.preventDefault()
+    const inputText = document.getElementById("inputtext")
+const inputEmail = document.getElementById("inputemail")
+const textArea = document.getElementById("textarea")
+    if(inputEmail === "" && inputText === "" && textArea === ""){
+        alert("Porfavor preencha os campos")
+    }
+} )
 
 btnTheme.addEventListener("click", () => {
     document.body.classList.toggle("lightTheme");

@@ -681,7 +681,10 @@ body{
         border: 1px #FF6347 solid;
         background-color: #191919;
         border-radius: 5px;
+        resize: none;
+        
     }
+    
     .contact button{
         margin-left: 0px;
         width: 90%;
